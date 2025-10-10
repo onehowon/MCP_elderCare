@@ -1,0 +1,24 @@
+{
+  "name": "mcp-eldercare",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "dist/server.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "LLM-based eldercare risk/empathy MCP server",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.20.0",
+    "csv-parse": "^6.1.0",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@types/node": "^24.7.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
